@@ -44,7 +44,7 @@ app.layout = html.Div(children=[
         html.Div([
                 html.H4("Features"),
                 html.Div('Refractive Index:'),
-                dcc.Input(id='RI', value=1.50, type='number', min=1.50, max=1.54, step=0.05),
+                dcc.Input(id='RI', value=1.50, type='number', min=1.50, max=1.54, step=0.01),
                 html.Div('Sodium (in weight percent):'),
                 dcc.Input(id='Na', value=13.40, type='number', min=10.75, max=17.50, step=0.05),
                 html.Div('Magnesium (in weight percent):'),
